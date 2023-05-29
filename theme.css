@@ -8,6 +8,10 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+
+	--font-text-theme: Arial, sans-serif;
+
+	--ribbon-background: rgba(2, 54, 32, 0.631);
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -31,4 +35,13 @@ svg * {
 
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.theme-dark {
+	--background-primary: #04010c;
+	--background-secondary: #13101b22;
+}
+
+.theme-light {
+
 }
